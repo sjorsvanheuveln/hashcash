@@ -17,4 +17,4 @@ Difficulty is defined as producing a hash from a challenge and token that has 'n
 ### Mining and Verification ###
 The proof of work is expensive, but the solutions are easy to verify.
 This idea was put into the Bitcoin protocol as new blocks need to mined through
-expensive calculation but new blocks can be easily verified.
+expensive calculation but can be easily verified.

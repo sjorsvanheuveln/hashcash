@@ -34,11 +34,13 @@ def make_token(s, n, charset='0123456789ABCDEF'):
             print('\nToken found:', token)
             return token
 
-def verify_token(s, token):
-    """Returns hashcash value of given token against basestring 's'."""
+def verify_token(s, token, difficulty):
+    """Returns true/false hashcash token validity."""
     solution = hash(sha(s).digest() + token.encode())
-    return trailing_zeros(solution)
-    s
+    if trailing_zeros(solution) >= difficulty:
+        print('Token', token, 'is valid')
+    else:
+        print('Error: Token', token, ' is invalid')
 
 # def make_cluster(s, n, charset='0123456789ABCDEF'):
 #     """Makes hashcash cluster of value 'n' against basestring 's'."""

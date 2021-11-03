@@ -4,11 +4,11 @@ from hashlib import sha1 as sha
 
 
 '''1. Set challenge and difficulty params'''
-challenge = b'Denmark'
-difficulty = 23
+challenge = b'Sjors'
+difficulty = 20
 
 '''2. Mint'''
 token = make_token(challenge, difficulty)
 
 '''3. Verify '''
-verify_token(challenge, token)
+verify_token(challenge, token, difficulty)
