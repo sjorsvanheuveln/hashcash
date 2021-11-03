@@ -5,6 +5,8 @@ we can use it as a proof of work that calculation was done to find a solution wi
 Hashcash was invented as a antispam technology, but was later implemented in the [Bitcoin protocol](https://nakamotoinstitute.org/bitcoin/).
 
 ### How to use ###
+Run test.py and:
+
 1. Set a challenge and difficulty (higher number, the more difficult)
 2. Mint the token
 3. Verify the token against the difficulty.
