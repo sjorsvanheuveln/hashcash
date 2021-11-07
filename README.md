@@ -4,6 +4,8 @@ By using the SHA1 hashing function which is deterministic and produces random re
 we can use it as a proof of work that calculation was done to find a solution with a specific difficulty.
 Hashcash was invented as a antispam technology, but was later implemented in the [Bitcoin protocol](https://nakamotoinstitute.org/bitcoin/).
 
+![Adam Back](https://github.com/sjorsvanheuveln/hashcash/blob/main/adam_back.jpeg)
+
 ### How to use ###
 Run test.py and:
 
