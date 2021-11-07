@@ -13,8 +13,12 @@ Run test.py and:
 2. Mint the token
 3. Verify the token against the difficulty.
 
+<br>
+
 ### Difficulty ###
 Difficulty is defined as producing a hash from a challenge and token that has 'n' trailing zeroes in binary.
+
+<br>
 
 ### Mining and Verification ###
 The proof of work is expensive, but the solutions are easy to verify.
